@@ -17,7 +17,6 @@ terraform {
       region              = "ap-east-1"
       dynamodb_table      = "std20-cicd-terraform-state-lock"           # 락온 상태를 저장할 DynamoDB 테이블
       encrypt             = true                                        # 파일 암호화
-      use_lockfile        = true
     }
 }
 
